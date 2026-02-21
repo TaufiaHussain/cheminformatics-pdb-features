@@ -38,4 +38,4 @@ for col in ["contact_atoms_4A", "contact_atoms_6A"]:
 bf = df["mean_bfactor"]
 assert ((bf.isna()) | (bf >= 0)).all(), "mean_bfactor has negative values (unexpected)"
 
-print("✅ Validation passed: basic sanity checks look good.")
+print("Validation passed: basic sanity checks look good.")
